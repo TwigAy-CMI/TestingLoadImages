@@ -1,0 +1,13 @@
+Block_Iteration,Trial_Number,Object_Type_1,Duration_Fix_1,Opacity_Fix_1,ConnectedResourceName_Fix_1,Object_Type_2,Duration_CompCrit_2,Onset_CompCrit_2,Opacity_CompCrit_2,ConnectedResourceName_CompCrit_2,AudioDuration_CompCrit_2,AudioOnset_CompCrit_2,ResponseKeyOverride_CompCrit_2,Object_Type_3,Duration_Mask_3,Onset_Mask_3,Opacity_Mask_3,ConnectedResourceName_Mask_3,Layer_Mask_3,AudioDuration_Mask_3,AudioOnset_Mask_3,Column1
+-1,-1,FixationVar,Single,Single,String,CompoundObjectVar,Single,Single,Single,String,Single,Single,String,MaskTrialObjectVar,Single,Single,Single,String,Int32,Single,Single,
+1,1,FixationVar,0.5,255,Cross,CompoundObjectVar,0.75,0,255,ConRight,0,0,,MaskTrialObjectVar,0.75,-0.75,255,Mask1,1,0.75,0,
+1,2,FixationVar,0.5,100,Cross,CompoundObjectVar,1,0,255,ConLeft,0,0,,MaskTrialObjectVar,1,-1,255,Mask1,1,1,0,
+1,3,FixationVar,0.5,255,Cross,CompoundObjectVar,1.25,0,255,ConRight,0,0,,MaskTrialObjectVar,1.25,-1.25,255,Mask1,1,1.25,0,
+1,4,FixationVar,0.5,100,Cross,CompoundObjectVar,1.5,0,255,ConLeft,0,0,,MaskTrialObjectVar,1.5,-1.5,255,Mask1,1,1.5,0,
+1,5,FixationVar,0.5,255,Cross,CompoundObjectVar,1.25,0,255,ConRight,0,0,,MaskTrialObjectVar,1.25,-1.25,255,Mask1,1,1.25,0,
+1,6,FixationVar,0.5,100,Cross,CompoundObjectVar,1,0,255,ConLeft,0,0,,MaskTrialObjectVar,1,-1,255,Mask1,1,1,0,
+1,7,FixationVar,0.5,255,Cross,CompoundObjectVar,0.75,0,255,ConRight,0,0,,MaskTrialObjectVar,0.75,-0.75,255,Mask1,1,0.75,0,
+1,8,FixationVar,0.5,100,Cross,CompoundObjectVar,1,0,255,ConLeft,0,0,,MaskTrialObjectVar,1,-1,255,Mask1,1,1,0,
+1,9,FixationVar,0.5,255,Cross,CompoundObjectVar,1.25,0,255,ConRight,0,0,,MaskTrialObjectVar,1.25,-1.25,255,Mask1,1,1.25,0,
+1,10,FixationVar,0.5,100,Cross,CompoundObjectVar,1.5,0,255,ConLeft,0,0,,MaskTrialObjectVar,1.5,-1.5,255,Mask1,1,1.5,0,
+1,11,FixationVar,0.5,255,Cross,CompoundObjectVar,1.25,0,255,ConRight,0,0,,MaskTrialObjectVar,1.25,-1.25,255,Mask1,1,1.25,0,
