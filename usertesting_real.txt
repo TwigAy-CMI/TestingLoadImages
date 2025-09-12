@@ -1,0 +1,1323 @@
+New Task Data
+{
+    "m_sTaskName": "user testing",
+    "m_iTaskIndex": 0,
+    "m_taskTypeCurrent": 6,
+    "m_bIsGroundActive": true,
+    "m_listTerrainData": [],
+    "m_listObjectData": [],
+    "m_skyLightData": {
+        "m_sIdName": "",
+        "m_fLightTemp": 0.0,
+        "m_fLightIntensity": 0.0,
+        "m_qLightRot": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+        },
+        "m_sSkyPrefab": "",
+        "m_bIsFog": false,
+        "m_colorFog": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0,
+            "a": 0.0
+        },
+        "m_fFogDensity": 0.0,
+        "m_colorLight": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0,
+            "a": 0.0
+        }
+    },
+    "m_groundType": 0,
+    "m_TaskData": {
+        "m_nvldRotorTask": {
+            "m_pathData": {
+                "m_type": 0,
+                "m_listPathPoints": []
+            },
+            "TaskTargetData": {
+                "m_name": "",
+                "m_pos": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "m_rot": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                }
+            },
+            "m_bIsInitializedAndSet": false,
+            "m_trial": {
+                "trialName": "",
+                "occlusionObjects": [],
+                "cameraData": [],
+                "isLoopingTrial": false,
+                "trialLoops": 0,
+                "distance": 300.0,
+                "speed": 60.0,
+                "size": 150.0,
+                "phaseOffset": 0.0,
+                "colorIndicator": {
+                    "r": 1.0,
+                    "g": 0.0,
+                    "b": 0.0,
+                    "a": 1.0
+                },
+                "isParticleEffect": false,
+                "isColorIndicator": true
+            },
+            "m_listTrials": [],
+            "m_taskType": 2
+        },
+        "m_task2d": {
+            "m_pathData": {
+                "m_type": 0,
+                "m_listPathPoints": []
+            },
+            "TaskTargetData": {
+                "m_name": "2dTaskPrefab",
+                "m_pos": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "m_rot": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                }
+            },
+            "m_bIsInitializedAndSet": false,
+            "m_listResourceSets": [
+                {
+                    "getName": "flanker critical stimulus",
+                    "m_resourceType": 2,
+                    "m_listResourceSetRoots": [
+                        {
+                            "m_maskRes": {
+                                "rid": -2
+                            },
+                            "currentResourceSetType": 2,
+                            "instructionsRes": {
+                                "rid": -2
+                            },
+                            "fixationRes": {
+                                "rid": -2
+                            },
+                            "criticalRes": {
+                                "rid": 1000
+                            },
+                            "compoundRes": {
+                                "rid": -2
+                            }
+                        },
+                        {
+                            "m_maskRes": {
+                                "rid": -2
+                            },
+                            "currentResourceSetType": 2,
+                            "instructionsRes": {
+                                "rid": -2
+                            },
+                            "fixationRes": {
+                                "rid": -2
+                            },
+                            "criticalRes": {
+                                "rid": 1001
+                            },
+                            "compoundRes": {
+                                "rid": -2
+                            }
+                        },
+                        {
+                            "m_maskRes": {
+                                "rid": -2
+                            },
+                            "currentResourceSetType": 2,
+                            "instructionsRes": {
+                                "rid": -2
+                            },
+                            "fixationRes": {
+                                "rid": -2
+                            },
+                            "criticalRes": {
+                                "rid": 1002
+                            },
+                            "compoundRes": {
+                                "rid": -2
+                            }
+                        }
+                    ],
+                    "m_sType": "Critical Stimulus"
+                },
+                {
+                    "getName": "fixation",
+                    "m_resourceType": 1,
+                    "m_listResourceSetRoots": [
+                        {
+                            "m_maskRes": {
+                                "rid": -2
+                            },
+                            "currentResourceSetType": 1,
+                            "instructionsRes": {
+                                "rid": -2
+                            },
+                            "fixationRes": {
+                                "rid": 1003
+                            },
+                            "criticalRes": {
+                                "rid": -2
+                            },
+                            "compoundRes": {
+                                "rid": -2
+                            }
+                        }
+                    ],
+                    "m_sType": "Fixation"
+                },
+                {
+                    "getName": "instructions",
+                    "m_resourceType": 0,
+                    "m_listResourceSetRoots": [
+                        {
+                            "m_maskRes": {
+                                "rid": -2
+                            },
+                            "currentResourceSetType": 0,
+                            "instructionsRes": {
+                                "rid": 1004
+                            },
+                            "fixationRes": {
+                                "rid": -2
+                            },
+                            "criticalRes": {
+                                "rid": -2
+                            },
+                            "compoundRes": {
+                                "rid": -2
+                            }
+                        },
+                        {
+                            "m_maskRes": {
+                                "rid": -2
+                            },
+                            "currentResourceSetType": 0,
+                            "instructionsRes": {
+                                "rid": 1005
+                            },
+                            "fixationRes": {
+                                "rid": -2
+                            },
+                            "criticalRes": {
+                                "rid": -2
+                            },
+                            "compoundRes": {
+                                "rid": -2
+                            }
+                        },
+                        {
+                            "m_maskRes": {
+                                "rid": -2
+                            },
+                            "currentResourceSetType": 0,
+                            "instructionsRes": {
+                                "rid": 1006
+                            },
+                            "fixationRes": {
+                                "rid": -2
+                            },
+                            "criticalRes": {
+                                "rid": -2
+                            },
+                            "compoundRes": {
+                                "rid": -2
+                            }
+                        },
+                        {
+                            "m_maskRes": {
+                                "rid": -2
+                            },
+                            "currentResourceSetType": 0,
+                            "instructionsRes": {
+                                "rid": 1007
+                            },
+                            "fixationRes": {
+                                "rid": -2
+                            },
+                            "criticalRes": {
+                                "rid": -2
+                            },
+                            "compoundRes": {
+                                "rid": -2
+                            }
+                        },
+                        {
+                            "m_maskRes": {
+                                "rid": -2
+                            },
+                            "currentResourceSetType": 0,
+                            "instructionsRes": {
+                                "rid": 1008
+                            },
+                            "fixationRes": {
+                                "rid": -2
+                            },
+                            "criticalRes": {
+                                "rid": -2
+                            },
+                            "compoundRes": {
+                                "rid": -2
+                            }
+                        }
+                    ],
+                    "m_sType": "Instructions"
+                }
+            ],
+            "m_listBlocks": [
+                {
+                    "rid": 1009
+                },
+                {
+                    "rid": 1010
+                },
+                {
+                    "rid": 1011
+                },
+                {
+                    "rid": 1012
+                },
+                {
+                    "rid": 1013
+                }
+            ],
+            "m_basicInputManager": {
+                "m_basicButtonList": [
+                    {
+                        "m_sName": "LEFT",
+                        "m_sResponseKey": "left",
+                        "m_sButtonID": "left-button",
+                        "m_iAssignedButton": 2,
+                        "m_bIsActive": true,
+                        "m_bIsManualResponse": false
+                    },
+                    {
+                        "m_sName": "RIGHT",
+                        "m_sResponseKey": "right",
+                        "m_sButtonID": "right-button",
+                        "m_iAssignedButton": 6,
+                        "m_bIsActive": true,
+                        "m_bIsManualResponse": false
+                    }
+                ]
+            },
+            "m_listTrialLibrary": [
+                {
+                    "m_sName": "instructions",
+                    "m_sSetTypeName": "InstructionsTemplate",
+                    "m_listRoots": [
+                        {
+                            "m_basicRtTemplate": {
+                                "rid": -2
+                            },
+                            "m_instructionsTemplate": {
+                                "rid": 1014
+                            },
+                            "m_basicCompundTemplate": {
+                                "rid": -2
+                            },
+                            "m_cuedRtTemplate": {
+                                "rid": -2
+                            },
+                            "m_maskedRtTemplate": {
+                                "rid": -2
+                            },
+                            "m_complexRT": {
+                                "rid": -2
+                            },
+                            "m_cuedDualMask": {
+                                "rid": -2
+                            },
+                            "m_trialTemplate": 8,
+                            "m_sName": "instructions1"
+                        },
+                        {
+                            "m_basicRtTemplate": {
+                                "rid": -2
+                            },
+                            "m_instructionsTemplate": {
+                                "rid": 1015
+                            },
+                            "m_basicCompundTemplate": {
+                                "rid": -2
+                            },
+                            "m_cuedRtTemplate": {
+                                "rid": -2
+                            },
+                            "m_maskedRtTemplate": {
+                                "rid": -2
+                            },
+                            "m_complexRT": {
+                                "rid": -2
+                            },
+                            "m_cuedDualMask": {
+                                "rid": -2
+                            },
+                            "m_trialTemplate": 8,
+                            "m_sName": "instructions2"
+                        },
+                        {
+                            "m_basicRtTemplate": {
+                                "rid": -2
+                            },
+                            "m_instructionsTemplate": {
+                                "rid": 1016
+                            },
+                            "m_basicCompundTemplate": {
+                                "rid": -2
+                            },
+                            "m_cuedRtTemplate": {
+                                "rid": -2
+                            },
+                            "m_maskedRtTemplate": {
+                                "rid": -2
+                            },
+                            "m_complexRT": {
+                                "rid": -2
+                            },
+                            "m_cuedDualMask": {
+                                "rid": -2
+                            },
+                            "m_trialTemplate": 8,
+                            "m_sName": "instructions3"
+                        },
+                        {
+                            "m_basicRtTemplate": {
+                                "rid": -2
+                            },
+                            "m_instructionsTemplate": {
+                                "rid": 1017
+                            },
+                            "m_basicCompundTemplate": {
+                                "rid": -2
+                            },
+                            "m_cuedRtTemplate": {
+                                "rid": -2
+                            },
+                            "m_maskedRtTemplate": {
+                                "rid": -2
+                            },
+                            "m_complexRT": {
+                                "rid": -2
+                            },
+                            "m_cuedDualMask": {
+                                "rid": -2
+                            },
+                            "m_trialTemplate": 8,
+                            "m_sName": "instructions4"
+                        },
+                        {
+                            "m_basicRtTemplate": {
+                                "rid": -2
+                            },
+                            "m_instructionsTemplate": {
+                                "rid": 1018
+                            },
+                            "m_basicCompundTemplate": {
+                                "rid": -2
+                            },
+                            "m_cuedRtTemplate": {
+                                "rid": -2
+                            },
+                            "m_maskedRtTemplate": {
+                                "rid": -2
+                            },
+                            "m_complexRT": {
+                                "rid": -2
+                            },
+                            "m_cuedDualMask": {
+                                "rid": -2
+                            },
+                            "m_trialTemplate": 8,
+                            "m_sName": "instructions5"
+                        }
+                    ],
+                    "m_trialTemplateEnum": 8,
+                    "m_trialTemplateRootResMapping": {
+                        "rid": 1019
+                    }
+                }
+            ]
+        },
+        "m_vmiTrainsTask": {
+            "m_pathData": {
+                "m_type": 0,
+                "m_listPathPoints": []
+            },
+            "TaskTargetData": {
+                "m_name": "",
+                "m_pos": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "m_rot": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                }
+            },
+            "m_bIsInitializedAndSet": false,
+            "m_trial": {
+                "trialName": "",
+                "occlusionObjects": [],
+                "cameraData": [],
+                "isLoopingTrial": false,
+                "trialLoops": 0,
+                "isPathSpawned": false,
+                "gravityStrength": 1.0,
+                "speed": 1.0,
+                "colliderSize": 1.0,
+                "lightIntensity": -1.0,
+                "pathData": {
+                    "m_type": 0,
+                    "m_listPathPoints": []
+                }
+            },
+            "m_listTrials": [],
+            "m_taskType": 1,
+            "isTrainLightsOn": false
+        }
+    },
+    "m_bIs2dTask": true,
+    "m_meritSettings": {
+        "m_iFrameRate": 60,
+        "m_bIsDevelopmentFile": false
+    },
+    "references": {
+        "version": 2,
+        "RefIds": [
+            {
+                "rid": -2,
+                "type": {
+                    "class": "",
+                    "ns": "",
+                    "asm": ""
+                },
+                "data": {}
+            },
+            {
+                "rid": 1000,
+                "type": {
+                    "class": "CriticalStimRes",
+                    "ns": "MERIT.SharedCore.TaskComponents.Task2D",
+                    "asm": "MERIT.SharedCore.TaskComponents"
+                },
+                "data": {
+                    "m_sName": "congruent right",
+                    "m_bIsFromWeb": true,
+                    "m_Sprite": {
+                        "instanceID": -1732
+                    },
+                    "m_sImageURL": "https://raw.githubusercontent.com/hotavocado/merit-builder/refs/heads/main/test_images/critical_stim/congruent-right.png",
+                    "m_sResponce": "right",
+                    "m_criticalStimVar": {
+                        "OnsetBounds": [
+                            0.0,
+                            1.0
+                        ],
+                        "m_sTrialName": "",
+                        "m_storedSelectedResources": {
+                            "m_listSelectedResourceNames": [
+                                ""
+                            ],
+                            "m_resourceSetType": 2
+                        },
+                        "m_fOnset": 0.0,
+                        "m_durationStyle": 1,
+                        "m_fDuration": 600.0,
+                        "m_fOpacity": 1.0,
+                        "m_iLayer": 1,
+                        "m_sResponseKeyOverride": "",
+                        "m_sConnectedResourceName": ""
+                    },
+                    "m_type": 2
+                }
+            },
+            {
+                "rid": 1001,
+                "type": {
+                    "class": "CriticalStimRes",
+                    "ns": "MERIT.SharedCore.TaskComponents.Task2D",
+                    "asm": "MERIT.SharedCore.TaskComponents"
+                },
+                "data": {
+                    "m_sName": "congruent left",
+                    "m_bIsFromWeb": true,
+                    "m_Sprite": {
+                        "instanceID": -1744
+                    },
+                    "m_sImageURL": "https://raw.githubusercontent.com/hotavocado/merit-builder/refs/heads/main/test_images/critical_stim/congruent-left.png",
+                    "m_sResponce": "left",
+                    "m_criticalStimVar": {
+                        "OnsetBounds": [
+                            0.0,
+                            1.0
+                        ],
+                        "m_sTrialName": "",
+                        "m_storedSelectedResources": {
+                            "m_listSelectedResourceNames": [
+                                ""
+                            ],
+                            "m_resourceSetType": 2
+                        },
+                        "m_fOnset": 0.0,
+                        "m_durationStyle": 1,
+                        "m_fDuration": 600.0,
+                        "m_fOpacity": 1.0,
+                        "m_iLayer": 1,
+                        "m_sResponseKeyOverride": "",
+                        "m_sConnectedResourceName": ""
+                    },
+                    "m_type": 2
+                }
+            },
+            {
+                "rid": 1002,
+                "type": {
+                    "class": "CriticalStimRes",
+                    "ns": "MERIT.SharedCore.TaskComponents.Task2D",
+                    "asm": "MERIT.SharedCore.TaskComponents"
+                },
+                "data": {
+                    "m_sName": "incongruent right",
+                    "m_bIsFromWeb": true,
+                    "m_Sprite": {
+                        "instanceID": -1756
+                    },
+                    "m_sImageURL": "https://raw.githubusercontent.com/hotavocado/merit-builder/refs/heads/main/test_images/critical_stim/incongruent-right.png",
+                    "m_sResponce": "right",
+                    "m_criticalStimVar": {
+                        "OnsetBounds": [
+                            0.0,
+                            1.0
+                        ],
+                        "m_sTrialName": "",
+                        "m_storedSelectedResources": {
+                            "m_listSelectedResourceNames": [
+                                ""
+                            ],
+                            "m_resourceSetType": 2
+                        },
+                        "m_fOnset": 0.0,
+                        "m_durationStyle": 1,
+                        "m_fDuration": 600.0,
+                        "m_fOpacity": 1.0,
+                        "m_iLayer": 1,
+                        "m_sResponseKeyOverride": "",
+                        "m_sConnectedResourceName": ""
+                    },
+                    "m_type": 2
+                }
+            },
+            {
+                "rid": 1003,
+                "type": {
+                    "class": "FixationRes",
+                    "ns": "MERIT.SharedCore.TaskComponents.Task2D",
+                    "asm": "MERIT.SharedCore.TaskComponents"
+                },
+                "data": {
+                    "m_sName": "fixation cross",
+                    "m_bIsFromWeb": true,
+                    "m_Sprite": {
+                        "instanceID": -1804
+                    },
+                    "m_sImageURL": "https://raw.githubusercontent.com/hotavocado/merit-builder/refs/heads/main/test_images/fixation/fixation-cross.png",
+                    "m_fixationVar": {
+                        "OnsetBounds": [
+                            0.0,
+                            1.0
+                        ],
+                        "m_sTrialName": "",
+                        "m_storedSelectedResources": {
+                            "m_listSelectedResourceNames": [
+                                ""
+                            ],
+                            "m_resourceSetType": 1
+                        },
+                        "m_fOnset": -1.0,
+                        "m_durationStyle": 1,
+                        "m_fDuration": 1.0,
+                        "m_fOpacity": 1.0,
+                        "m_iLayer": 1,
+                        "m_sConnectedResourceName": ""
+                    },
+                    "m_type": 1
+                }
+            },
+            {
+                "rid": 1004,
+                "type": {
+                    "class": "InstructionsRes",
+                    "ns": "MERIT.SharedCore.TaskComponents.Task2D",
+                    "asm": "MERIT.SharedCore.TaskComponents"
+                },
+                "data": {
+                    "m_sName": "instructions1",
+                    "m_bIsFromWeb": true,
+                    "m_Sprite": {
+                        "instanceID": -1816
+                    },
+                    "m_sImageURL": "https://raw.githubusercontent.com/hotavocado/merit-builder/refs/heads/main/test_images/instructions/instructions1.png",
+                    "m_type": 0
+                }
+            },
+            {
+                "rid": 1005,
+                "type": {
+                    "class": "InstructionsRes",
+                    "ns": "MERIT.SharedCore.TaskComponents.Task2D",
+                    "asm": "MERIT.SharedCore.TaskComponents"
+                },
+                "data": {
+                    "m_sName": "instructions2",
+                    "m_bIsFromWeb": true,
+                    "m_Sprite": {
+                        "instanceID": -1828
+                    },
+                    "m_sImageURL": "https://raw.githubusercontent.com/hotavocado/merit-builder/refs/heads/main/test_images/instructions/instructions2.png",
+                    "m_type": 0
+                }
+            },
+            {
+                "rid": 1006,
+                "type": {
+                    "class": "InstructionsRes",
+                    "ns": "MERIT.SharedCore.TaskComponents.Task2D",
+                    "asm": "MERIT.SharedCore.TaskComponents"
+                },
+                "data": {
+                    "m_sName": "instructions3",
+                    "m_bIsFromWeb": true,
+                    "m_Sprite": {
+                        "instanceID": -1840
+                    },
+                    "m_sImageURL": "https://raw.githubusercontent.com/hotavocado/merit-builder/refs/heads/main/test_images/instructions/instructions3.png",
+                    "m_type": 0
+                }
+            },
+            {
+                "rid": 1007,
+                "type": {
+                    "class": "InstructionsRes",
+                    "ns": "MERIT.SharedCore.TaskComponents.Task2D",
+                    "asm": "MERIT.SharedCore.TaskComponents"
+                },
+                "data": {
+                    "m_sName": "instructions4",
+                    "m_bIsFromWeb": true,
+                    "m_Sprite": {
+                        "instanceID": -1852
+                    },
+                    "m_sImageURL": "https://raw.githubusercontent.com/hotavocado/merit-builder/refs/heads/main/test_images/instructions/instructions4.png",
+                    "m_type": 0
+                }
+            },
+            {
+                "rid": 1008,
+                "type": {
+                    "class": "InstructionsRes",
+                    "ns": "MERIT.SharedCore.TaskComponents.Task2D",
+                    "asm": "MERIT.SharedCore.TaskComponents"
+                },
+                "data": {
+                    "m_sName": "instructions5",
+                    "m_bIsFromWeb": true,
+                    "m_Sprite": {
+                        "instanceID": -1864
+                    },
+                    "m_sImageURL": "https://raw.githubusercontent.com/hotavocado/merit-builder/refs/heads/main/test_images/instructions/instructions5.png",
+                    "m_type": 0
+                }
+            },
+            {
+                "rid": 1009,
+                "type": {
+                    "class": "StartNode",
+                    "ns": "MERIT.SharedCore.TaskComponents",
+                    "asm": "MERIT.SharedCore.TaskComponents"
+                },
+                "data": {
+                    "m_gridObjectData": {
+                        "rid": 1020
+                    },
+                    "m_sName": "StartNode",
+                    "m_blockNodeConnected": {
+                        "rid": 1011
+                    }
+                }
+            },
+            {
+                "rid": 1010,
+                "type": {
+                    "class": "Task2dBlockNode",
+                    "ns": "MERIT.SharedCore.TaskComponents.Task2D",
+                    "asm": "MERIT.SharedCore.TaskComponents"
+                },
+                "data": {
+                    "m_gridObjectData": {
+                        "rid": 1021
+                    },
+                    "m_sName": "Instructions",
+                    "m_blockNodeConnected": {
+                        "rid": 1012
+                    },
+                    "m_sequencerSource": 0,
+                    "m_trialTemplateType": 8,
+                    "m_iterationsType": 2,
+                    "m_listTrialConfigHolders": [
+                        {
+                            "m_trial2DTemplate": {
+                                "rid": 1014
+                            },
+                            "m_iCount": 1,
+                            "m_sSetName": "instructions"
+                        },
+                        {
+                            "m_trial2DTemplate": {
+                                "rid": 1015
+                            },
+                            "m_iCount": 1,
+                            "m_sSetName": "instructions"
+                        },
+                        {
+                            "m_trial2DTemplate": {
+                                "rid": 1016
+                            },
+                            "m_iCount": 1,
+                            "m_sSetName": "instructions"
+                        },
+                        {
+                            "m_trial2DTemplate": {
+                                "rid": 1017
+                            },
+                            "m_iCount": 1,
+                            "m_sSetName": "instructions"
+                        },
+                        {
+                            "m_trial2DTemplate": {
+                                "rid": 1018
+                            },
+                            "m_iCount": 1,
+                            "m_sSetName": "instructions"
+                        }
+                    ],
+                    "m_iMaxRepeat": 2,
+                    "m_iIterations": 10,
+                    "m_fCorrectnessPercent": 0.5,
+                    "m_sEndEvent": "PlaceHolder Variable For Monos",
+                    "m_listConnectedBlockName": [],
+                    "m_listCSVTrialTemplateInfo": [],
+                    "m_sBlockTypeName": "Instructions",
+                    "m_bCSVOverride": false,
+                    "m_trialTemplateSet": []
+                }
+            },
+            {
+                "rid": 1011,
+                "type": {
+                    "class": "RepeatStartNode",
+                    "ns": "MERIT.SharedCore.TaskComponents",
+                    "asm": "MERIT.SharedCore.TaskComponents"
+                },
+                "data": {
+                    "m_gridObjectData": {
+                        "rid": 1022
+                    },
+                    "m_sName": "RepeatStartNode_A",
+                    "m_nodePair": 0,
+                    "m_blockNodeConnected": {
+                        "rid": 1010
+                    }
+                }
+            },
+            {
+                "rid": 1012,
+                "type": {
+                    "class": "RepeatEndNode",
+                    "ns": "MERIT.SharedCore.TaskComponents",
+                    "asm": "MERIT.SharedCore.TaskComponents"
+                },
+                "data": {
+                    "m_gridObjectData": {
+                        "rid": 1023
+                    },
+                    "m_sName": "RepeatEndNode_A",
+                    "m_blockNodeConnected": {
+                        "rid": 1013
+                    },
+                    "m_nodePair": 0,
+                    "m_repeatMode": 0,
+                    "m_nodeLogic": {
+                        "rid": 1024
+                    },
+                    "m_iRepeatCount": 1
+                }
+            },
+            {
+                "rid": 1013,
+                "type": {
+                    "class": "EndNode",
+                    "ns": "MERIT.SharedCore.TaskComponents",
+                    "asm": "MERIT.SharedCore.TaskComponents"
+                },
+                "data": {
+                    "m_gridObjectData": {
+                        "rid": 1025
+                    },
+                    "m_sName": "EndNode"
+                }
+            },
+            {
+                "rid": 1014,
+                "type": {
+                    "class": "InstructionsTemplate",
+                    "ns": "MERIT.SharedCore.TaskComponents.Task2D",
+                    "asm": "MERIT.SharedCore.TaskComponents"
+                },
+                "data": {
+                    "trialName": "instructions1",
+                    "m_instructionsVariables": {
+                        "OnsetBounds": [
+                            0.0,
+                            1.0
+                        ],
+                        "m_sTrialName": "instructions1",
+                        "m_storedSelectedResources": {
+                            "m_listSelectedResourceNames": [
+                                ""
+                            ],
+                            "m_resourceSetType": 0
+                        },
+                        "m_fOnset": 0.0,
+                        "m_durationStyle": 0,
+                        "m_fDuration": 20000.0,
+                        "m_fOpacity": 1.0,
+                        "m_iLayer": 1,
+                        "m_sConnectedResourceName": "instructions1"
+                    },
+                    "m_trialNodeEndTrial": {
+                        "OnsetBounds": [
+                            0.0,
+                            1.0
+                        ],
+                        "m_sTrialName": "instructions1",
+                        "m_fOnset": 20000.0,
+                        "m_fDuration": 0.0
+                    },
+                    "m_trialTemplate": 8
+                }
+            },
+            {
+                "rid": 1015,
+                "type": {
+                    "class": "InstructionsTemplate",
+                    "ns": "MERIT.SharedCore.TaskComponents.Task2D",
+                    "asm": "MERIT.SharedCore.TaskComponents"
+                },
+                "data": {
+                    "trialName": "instructions2",
+                    "m_instructionsVariables": {
+                        "OnsetBounds": [
+                            0.0,
+                            1.0
+                        ],
+                        "m_sTrialName": "instructions2",
+                        "m_storedSelectedResources": {
+                            "m_listSelectedResourceNames": [
+                                ""
+                            ],
+                            "m_resourceSetType": 0
+                        },
+                        "m_fOnset": 0.0,
+                        "m_durationStyle": 0,
+                        "m_fDuration": 20000.0,
+                        "m_fOpacity": 1.0,
+                        "m_iLayer": 1,
+                        "m_sConnectedResourceName": "instructions2"
+                    },
+                    "m_trialNodeEndTrial": {
+                        "OnsetBounds": [
+                            0.0,
+                            1.0
+                        ],
+                        "m_sTrialName": "instructions2",
+                        "m_fOnset": 20000.0,
+                        "m_fDuration": 0.0
+                    },
+                    "m_trialTemplate": 8
+                }
+            },
+            {
+                "rid": 1016,
+                "type": {
+                    "class": "InstructionsTemplate",
+                    "ns": "MERIT.SharedCore.TaskComponents.Task2D",
+                    "asm": "MERIT.SharedCore.TaskComponents"
+                },
+                "data": {
+                    "trialName": "instructions3",
+                    "m_instructionsVariables": {
+                        "OnsetBounds": [
+                            0.0,
+                            1.0
+                        ],
+                        "m_sTrialName": "instructions3",
+                        "m_storedSelectedResources": {
+                            "m_listSelectedResourceNames": [
+                                ""
+                            ],
+                            "m_resourceSetType": 0
+                        },
+                        "m_fOnset": 0.0,
+                        "m_durationStyle": 0,
+                        "m_fDuration": 20000.0,
+                        "m_fOpacity": 1.0,
+                        "m_iLayer": 1,
+                        "m_sConnectedResourceName": "instructions3"
+                    },
+                    "m_trialNodeEndTrial": {
+                        "OnsetBounds": [
+                            0.0,
+                            1.0
+                        ],
+                        "m_sTrialName": "instructions3",
+                        "m_fOnset": 20000.0,
+                        "m_fDuration": 0.0
+                    },
+                    "m_trialTemplate": 8
+                }
+            },
+            {
+                "rid": 1017,
+                "type": {
+                    "class": "InstructionsTemplate",
+                    "ns": "MERIT.SharedCore.TaskComponents.Task2D",
+                    "asm": "MERIT.SharedCore.TaskComponents"
+                },
+                "data": {
+                    "trialName": "instructions4",
+                    "m_instructionsVariables": {
+                        "OnsetBounds": [
+                            0.0,
+                            1.0
+                        ],
+                        "m_sTrialName": "instructions4",
+                        "m_storedSelectedResources": {
+                            "m_listSelectedResourceNames": [
+                                ""
+                            ],
+                            "m_resourceSetType": 0
+                        },
+                        "m_fOnset": 0.0,
+                        "m_durationStyle": 0,
+                        "m_fDuration": 20000.0,
+                        "m_fOpacity": 1.0,
+                        "m_iLayer": 1,
+                        "m_sConnectedResourceName": "instructions4"
+                    },
+                    "m_trialNodeEndTrial": {
+                        "OnsetBounds": [
+                            0.0,
+                            1.0
+                        ],
+                        "m_sTrialName": "instructions4",
+                        "m_fOnset": 20000.0,
+                        "m_fDuration": 0.0
+                    },
+                    "m_trialTemplate": 8
+                }
+            },
+            {
+                "rid": 1018,
+                "type": {
+                    "class": "InstructionsTemplate",
+                    "ns": "MERIT.SharedCore.TaskComponents.Task2D",
+                    "asm": "MERIT.SharedCore.TaskComponents"
+                },
+                "data": {
+                    "trialName": "instructions5",
+                    "m_instructionsVariables": {
+                        "OnsetBounds": [
+                            0.0,
+                            1.0
+                        ],
+                        "m_sTrialName": "instructions5",
+                        "m_storedSelectedResources": {
+                            "m_listSelectedResourceNames": [
+                                ""
+                            ],
+                            "m_resourceSetType": 0
+                        },
+                        "m_fOnset": 0.0,
+                        "m_durationStyle": 0,
+                        "m_fDuration": 20000.0,
+                        "m_fOpacity": 1.0,
+                        "m_iLayer": 1,
+                        "m_sConnectedResourceName": "instructions5"
+                    },
+                    "m_trialNodeEndTrial": {
+                        "OnsetBounds": [
+                            0.0,
+                            1.0
+                        ],
+                        "m_sTrialName": "instructions5",
+                        "m_fOnset": 20000.0,
+                        "m_fDuration": 0.0
+                    },
+                    "m_trialTemplate": 8
+                }
+            },
+            {
+                "rid": 1019,
+                "type": {
+                    "class": "TrialTemplateRoot",
+                    "ns": "MERIT.SharedCore.TaskComponents.Task2D",
+                    "asm": "MERIT.SharedCore.TaskComponents"
+                },
+                "data": {
+                    "m_basicRtTemplate": {
+                        "rid": -2
+                    },
+                    "m_instructionsTemplate": {
+                        "rid": 1026
+                    },
+                    "m_basicCompundTemplate": {
+                        "rid": -2
+                    },
+                    "m_cuedRtTemplate": {
+                        "rid": -2
+                    },
+                    "m_maskedRtTemplate": {
+                        "rid": -2
+                    },
+                    "m_complexRT": {
+                        "rid": -2
+                    },
+                    "m_cuedDualMask": {
+                        "rid": -2
+                    },
+                    "m_trialTemplate": 8,
+                    "m_sName": "ResourceMappingRoot_InstructionsTemplate"
+                }
+            },
+            {
+                "rid": 1020,
+                "type": {
+                    "class": "GridObjectData",
+                    "ns": "MERIT.SharedCore.BaseUtilities",
+                    "asm": "MERIT.SharedCore.BaseUtilities"
+                },
+                "data": {
+                    "m_listV2CornerLocations": [
+                        {
+                            "x": 7.0,
+                            "y": -18.0
+                        },
+                        {
+                            "x": 16.0,
+                            "y": -18.0
+                        },
+                        {
+                            "x": 16.0,
+                            "y": -23.0
+                        },
+                        {
+                            "x": 7.0,
+                            "y": -23.0
+                        }
+                    ]
+                }
+            },
+            {
+                "rid": 1021,
+                "type": {
+                    "class": "GridObjectData",
+                    "ns": "MERIT.SharedCore.BaseUtilities",
+                    "asm": "MERIT.SharedCore.BaseUtilities"
+                },
+                "data": {
+                    "m_listV2CornerLocations": [
+                        {
+                            "x": 30.0,
+                            "y": -16.0
+                        },
+                        {
+                            "x": 46.0,
+                            "y": -16.0
+                        },
+                        {
+                            "x": 46.0,
+                            "y": -25.0
+                        },
+                        {
+                            "x": 30.0,
+                            "y": -25.0
+                        }
+                    ]
+                }
+            },
+            {
+                "rid": 1022,
+                "type": {
+                    "class": "GridObjectData",
+                    "ns": "MERIT.SharedCore.BaseUtilities",
+                    "asm": "MERIT.SharedCore.BaseUtilities"
+                },
+                "data": {
+                    "m_listV2CornerLocations": [
+                        {
+                            "x": 19.0,
+                            "y": -18.0
+                        },
+                        {
+                            "x": 26.0,
+                            "y": -18.0
+                        },
+                        {
+                            "x": 26.0,
+                            "y": -23.0
+                        },
+                        {
+                            "x": 19.0,
+                            "y": -23.0
+                        }
+                    ]
+                }
+            },
+            {
+                "rid": 1023,
+                "type": {
+                    "class": "GridObjectData",
+                    "ns": "MERIT.SharedCore.BaseUtilities",
+                    "asm": "MERIT.SharedCore.BaseUtilities"
+                },
+                "data": {
+                    "m_listV2CornerLocations": [
+                        {
+                            "x": 51.0,
+                            "y": -18.0
+                        },
+                        {
+                            "x": 61.0,
+                            "y": -18.0
+                        },
+                        {
+                            "x": 61.0,
+                            "y": -23.0
+                        },
+                        {
+                            "x": 51.0,
+                            "y": -23.0
+                        }
+                    ]
+                }
+            },
+            {
+                "rid": 1024,
+                "type": {
+                    "class": "NodeConditionalLogic",
+                    "ns": "MERIT.SharedCore.TaskComponents",
+                    "asm": "MERIT.SharedCore.TaskComponents"
+                },
+                "data": {
+                    "m_nodeVariable": 0,
+                    "m_nodeOperator": 0,
+                    "m_fComparisionValue": 0.0,
+                    "m_sStoredVar": ""
+                }
+            },
+            {
+                "rid": 1025,
+                "type": {
+                    "class": "GridObjectData",
+                    "ns": "MERIT.SharedCore.BaseUtilities",
+                    "asm": "MERIT.SharedCore.BaseUtilities"
+                },
+                "data": {
+                    "m_listV2CornerLocations": [
+                        {
+                            "x": 63.0,
+                            "y": -19.0
+                        },
+                        {
+                            "x": 72.0,
+                            "y": -19.0
+                        },
+                        {
+                            "x": 72.0,
+                            "y": -22.0
+                        },
+                        {
+                            "x": 63.0,
+                            "y": -22.0
+                        }
+                    ]
+                }
+            },
+            {
+                "rid": 1026,
+                "type": {
+                    "class": "InstructionsTemplate",
+                    "ns": "MERIT.SharedCore.TaskComponents.Task2D",
+                    "asm": "MERIT.SharedCore.TaskComponents"
+                },
+                "data": {
+                    "trialName": "ResourceMappingRoot_InstructionsTemplate",
+                    "m_instructionsVariables": {
+                        "OnsetBounds": [
+                            0.0,
+                            1.0
+                        ],
+                        "m_sTrialName": "ResourceMappingRoot_InstructionsTemplate",
+                        "m_storedSelectedResources": {
+                            "m_listSelectedResourceNames": [
+                                "instructions1",
+                                "instructions2",
+                                "instructions3",
+                                "instructions4",
+                                "instructions5"
+                            ],
+                            "m_resourceSetType": 0
+                        },
+                        "m_fOnset": 0.0,
+                        "m_durationStyle": 0,
+                        "m_fDuration": 20000.0,
+                        "m_fOpacity": 1.0,
+                        "m_iLayer": 1,
+                        "m_sConnectedResourceName": "instructions5"
+                    },
+                    "m_trialNodeEndTrial": {
+                        "OnsetBounds": [
+                            0.0,
+                            21000.0
+                        ],
+                        "m_sTrialName": "ResourceMappingRoot_InstructionsTemplate",
+                        "m_fOnset": 20000.0,
+                        "m_fDuration": 0.0
+                    },
+                    "m_trialTemplate": 8
+                }
+            }
+        ]
+    }
+}
